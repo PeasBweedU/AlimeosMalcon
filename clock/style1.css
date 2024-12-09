@@ -1,5 +1,5 @@
 body {
-  background: #ffffff;
+  background: #25e6df;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -12,7 +12,7 @@ body {
   height: 300px;
   background: transparent;
   border-radius: 50%;
-  border: 5px solid black;
+  border: 5px solid rgb(216, 63, 124);
   position: relative;
 }
 
@@ -65,7 +65,7 @@ body {
   position: absolute;
   bottom: 50%;
   left: 50%;
-  border: 1px solid rgb(0, 0, 0);
+  border: 1px solid rgb(73, 225, 35);
   border-top-left-radius: 10px;
   border-top-right-radius: 10px;
   transform-origin: bottom;
@@ -89,17 +89,17 @@ body {
 .clock .hand.second {
   width: 3px;
   height: 45%;
-  background-color: red;
+  background-color: rgb(206, 73, 73);
 }
 
 .clock .hand.minute {
   width: 7px;
   height: 40%;
-  background-color: black;
+  background-color: rgb(219, 81, 21);
 }
 
 .clock .hand.hour {
   width: 10px;
   height: 30%;
-  background-color: black;
+  background-color: rgb(219, 81, 21);
 }
